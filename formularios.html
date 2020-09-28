@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="estilo2.css" type="text/css">
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="nome">Nome:</label> <!-- Label são etiquetas, o for leva o usuário para dentro do input que tiver o id correspondente ao for--> 
+        <input id="nome" type="text" placeholder="Insira seu nome" name="nome" />
+        <label for="opcao">Você gostou do site?</label>
+        <input type="radio" name="opcao" value="sim" checked="checked" />Sim <!--atributo checked para deixar uma opção marcada como padrão-->
+        <input type="radio" name="opcao" value="nao"/>Não
+        <label for="linguagem">Você quer aprender mais sobre:</label>
+        <input type="checkbox" name="html" />HTML
+        <input type="checkbox" name="css" />CSS
+        <textarea name="msg"></textarea>
+        <input type="submit" value="Enviar"/>
+
+    </form>
+</body>
+</html>

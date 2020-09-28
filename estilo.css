@@ -1,0 +1,20 @@
+h2{
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#segundo{
+    color: orangered;  /* Como chamar um id: utilizar o jogo da velha #nome_do_id */
+}
+
+h3.htres{
+    color: purple; /* Como chamar uma classe: utilizar .nome_da_classe */
+}
+
+h3{
+    color: orchid;
+}
+
+body section h4.htres{
+    color: salmon; 
+}

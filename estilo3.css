@@ -1,0 +1,17 @@
+h1{
+    color: tomato;
+    letter-spacing: -2px; /* Espaçamento entre caracteres */
+    /*text-transform: uppercase; coloca todas as letras de um texto em maiúsculas*/
+    text-transform: capitalize; /*coloca a primeira letra de cada palavra de um texto em maiúsculas*/
+    width: 650px;
+    text-shadow: 2px 2px rgb(0, 0, 0); /* text-shadow: "qtd na horizontal" "qtd na vertical" "desfoque" "cor"  - coloca sombras*/
+    font-family: 'Indie Flower', cursive, Verdana, Tahoma, sans-serif;
+}
+
+p{
+    text-indent: 50px; /* identação do parágrafo */
+    width: 650px;
+    text-align: justify; /* A função text-align serve para informar a formatação do texto */
+    font-size: 18px; /* tamanho padrão = 16 px */
+    font-family: 'Indie Flower', cursive, Verdana, Tahoma, sans-serif; /* é importante adicionar fontes de backup caso não tenha a fonte na máquina do usuário, é interessante utilizar também uma fonte universal, que abranja a maioria dos SO.*/
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro estilo CSS</title>
+    <!--Estilização em head -->
+    <style type="text/css"> 
+        h1{
+            color: blue; 
+            font-family: helvetica, sans-serif;
+            font-size: 100px;
+        }
+    </style>
+    <!--Puxando a estilização do arquivo externo: estilo.css-->
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <h1>Meu primeiro estilo CSS</h1>
+        <p><a href="listas.html" style="color:red; text-decoration: none;">Link de exemplo</a></p> <!--Estilização in-line-->
+        <p><a href="listas.html">Segundo link</a></p>
+    <h2>O estilo do H2 está vindo do documento estilo.css !</h2>
+    <h3 class="htres">Testando os IDs e Classes para estilizar o H3 !</h3>
+    <h3 id="segundo">Testando os IDs e Classes para estilizar o H3 !</h3>
+    <h3 class="htres">Testando os IDs e Classes para estilizar o H3 !</h3>
+    <h3>Testando os IDs e Classes para estilizar o H3 !</h3>
+    <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+    <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+    <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+    <section>
+        <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+        <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+        <h4 class="htres">Testando os IDs e Classes para estilizar o H4!</h4>
+    </section>
+</body>
+</html>
+
+<!--
+    id: Identificador único, só pode ser utilizado 1 vez por página.
+    class: Identificador múltiplo, pode ser utilizado mais de uma vez por páginas.
+ -->

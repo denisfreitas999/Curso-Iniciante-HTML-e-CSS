@@ -1,0 +1,79 @@
+/* CSS REUTILIZÁVEL */
+a:link, a:visited{
+    color:tomato;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+#wrap{
+    width: 960px;
+    margin: auto; /* margin espaçamento externo */
+    background: #e3e3e3;
+    padding: 10px 20px;
+    /* overflow: hidden;  serve para ocultar aquilo que ultrapassar os limites da div*/
+}
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body div header h1{
+    color: salmon;
+    /* padding: topo, direita, baixo, esquerda;   espaçamento interno */
+    /*
+    padding: 10px;  == padding: 10px 10px 10px 10px; e padding: 10px 20px 10px 20px; == padding: 10px 20px;
+    */
+}   
+
+body div header nav ul li{
+    display: inline-block;
+} 
+
+body div header nav ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-right: 10px;
+} 
+
+body div header nav ul li a{
+    font-size: 18px;
+    /* color: tomato;
+    text-decoration: none; */
+} 
+
+/* body div header nav ul li a:hover{    a função hover diz pra executar um comando quando passar o mouse em cima do elemento
+    text-decoration: underline; 
+} 
+*/
+
+#content{
+    float: left;
+    width: 660px;
+}
+
+#sidebar{
+    float: right;
+    width: 300px;
+}
+
+footer{
+    clear: both; /* Limpa a s flutuações anteriores e o texto passa a ter o formato que deveria, nesse caso
+    a parte inferior do site (both) */
+}
+
+#sidebar ul{
+    list-style: none;
+}
+/*
+#sidebar ul li a{
+    text-decoration: none;
+    color: tomato;
+}
+
+#sidebar ul li a:hover{
+    text-decoration: underline;
+}
+*/
